@@ -5,14 +5,14 @@
 使用方法
 
 ```bash
-npm i thor-x --save
+npm i nix-thor-x --save
 ```
 
 1.配置main.js
 
 ```javascript
-import thor from 'thor-x'
-import 'thor-x/dist/index.css'
+import thor from 'nix-thor-x'
+import 'nix-thor-x/dist/index.css'
 Vue.use(thor)
 ```
 
@@ -21,8 +21,8 @@ Vue.use(thor)
 如：
 
 ```
-import {ThMessage} from 'thor-x';
-import 'thor-x/dist/index.css';
+import {ThMessage} from 'nix-thor-x';
+import 'nix-thor-x/dist/index.css';
 export default {
     name: "guestbookDialog",
     components: {
