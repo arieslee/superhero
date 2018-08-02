@@ -105,7 +105,11 @@ export default {
     textTitle: {
       type: String,
       default: '输入文字'
-    }
+    },
+      textShow: {
+          type: Boolean,
+          default: false
+      }
   },
   components: {
     Scroller,
