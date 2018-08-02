@@ -166,7 +166,6 @@ export default {
       facelist: facelist,
       funcShow: false,
       isFocus: false,
-      textShow: false,
       textfocus: false,
       canclose: true,
       status: {
