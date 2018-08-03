@@ -45,7 +45,6 @@
 </template>
 
 <script>
-import "@/assets/sass/components/message.scss";
 import doc from "@/assets/images/doc.png";
 import people from "@/assets/images/people.png";
 import quick from "@/assets/images/quick.png";
@@ -378,3 +377,13 @@ export default {
   }
 };
 </script>
+<style scoped src="../../assets/sass/components/message.scss" lang="scss">
+</style>
+<style scoped lang="scss">
+  .weui-btn_primary{
+    background: #4a93ec!important;
+  }
+  .weui-btn_primary:not(.weui-btn_disabled):active{
+    background: #2f73c5!important;
+  }
+</style>
